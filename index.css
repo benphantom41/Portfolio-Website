@@ -1,14 +1,14 @@
-body{
+body {
     background-color: #053d41;
     font-family: "PP Neue Montreal", Inter, Helvetica, sans-serif
 }
 
-.topnav{
+.topnav {
     background-color: #333;
     overflow: hidden;
 }
 
-.topnav ul li{
+.topnav ul li {
     float: left;
     color: #f2f2f2;
     text-align: left;
@@ -18,33 +18,34 @@ body{
     list-style-type: none;
 }
 
-.topnav ul li:hover{
+.topnav ul li:hover {
     color: rgb(13, 175, 13);
 }
 
-.current{
+.current {
     background-color: #363d3d;
 }
 
 .text p,
-ul li{
+ul li {
     font-size: 1rem;
 }
 
 
-.container{
+.container {
     background-color: #062b2e;
     padding-bottom: 20px;
 }
 
-.image img{
+.image img {
     max-height: 100;
     max-width: 100%;
     border: 5px solid #0c6b53;
 }
 
 
-.text, .Title{
+.text,
+.Title {
     font-size: 20px;
     padding-left: 20px;
     color: #eaebe3;
@@ -53,34 +54,34 @@ ul li{
 
 
 
-.text h1{
+.text h1 {
     font-size: 38px;
     font-weight: 700;
-    font: normal normal bold baskervillemtw01-smbdit,baskervillemtw05-smbdit,serif;
+    font: normal normal bold baskervillemtw01-smbdit, baskervillemtw05-smbdit, serif;
 }
 
 
-li a{
+li a {
     text-decoration: none;
     color: inherit
 }
 
 /*Projects*/
 
-[class^=table-]{
-    margin:auto;
+[class^=table-] {
+    margin: auto;
     text-align: center;
     align-items: center;
     width: 75%;
-    
+
 }
 
-[class^=table-] td{
+[class^=table-] td {
     padding-bottom: 15px;
     padding-right: 30px;
 }
 
-.table-project img{
+.table-project img {
     width: 100%;
     display: block;
     margin: auto;
@@ -88,38 +89,71 @@ li a{
 
 
 
-.Title h1{
-    text-decoration:underline;
+.Title h1 {
+    text-decoration: underline;
     font-size: 2.5em;
 }
 
-.table-text{
+.table-text {
     font-style: italic;
     font-size: 1.7em;
 }
 
-.Title a{
+.Title a {
     text-decoration: none;
     color: inherit;
 }
 
 /*Game*/
 
-.table-game .text{ 
-   text-align: left;
+.table-game .text {
+    text-align: left;
 }
 
-.row p, li{
+.row p,
+li {
     font-size: 20px;
     color: #eaebe3;
     font-family: sans-serif;
 }
 
-.link:hover{
-color: rgb(7, 100, 7);
-} 
+.link:hover {
+    color: rgb(7, 100, 7);
+}
 
-.cert{
-    font-size: 1.3rem; 
+.cert {
+    font-size: 1.3rem;
     font-style: italic;
+}
+
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+ul.banner-social-buttons li {
+    display: inline-block;
+    padding-top: 20px;
+}
+
+ul.banner-social-buttons li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 50px;
+    outline: 0;
+    color: rgba(255, 255, 255, 0.8);
+    background: #333;
+    transition: all .3s;
+}
+
+ul.banner-social-buttons li a:hover,
+ul.banner-social-buttons li a:active {
+    color: #FFF;
+    box-shadow: 1px 1px 3px #333;
+    transform: scale(1.1);
 }
